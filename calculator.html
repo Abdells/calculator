@@ -4,18 +4,19 @@
     <title>Simple Calculator</title>
   </head>
   <body>
-    <h2>Simple Calculator</h2>
-    <input type="text" id="num1" placeholder="First number" />
-    <input type="text" id="num2" placeholder="Second number" />
-    <br /><br />
-    <button onclick="add()">Add</button>
-    <button onclick="subtract()">Subtract</button>
-    <button onclick="multiply()">Multiply</button>
-    <button onclick="divide()">Divide</button>
-    <br /><br />
-    <p>Result: <span id="result"></span></p>
+    <div class="calculator">
+      <h2>Simple calculator</h2>
+      <input type="text" id="num1" placeholder="First number" /> <br />
 
-    <script src="calculator.js"></script>
+      <input type="text" id="num2" placeholder="Second number" />
+      <br /><br />
+      <button onclick="add()">Add</button>
+      <button onclick="subtract()">subtract</button>
+      <button onclick="multiply()">multiply</button>
+      <button onclick="divide()">divide</button>
+      <br /><br />
+      <p id="result">Answer:</p>
+    </div>
 
     <script src="calculator.js"></script>
   </body>
